@@ -5,7 +5,42 @@ body {
   min-height: 100vh;
   background: chartreuse;
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;}
+  
+  font-family: 'Courier New', Courier, monospace;
+}
+a{
+  text-decoration: none;
+}
+button{
+
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  
+  font-size: 18px;
+  border-radius:40px ;
+  padding: 10px 30px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  background: ;
+  color: #ac1212;
+  box-shadow: -2px -2px 8px rgba(255, 255, 255, 1)
+     ,        -2px -2px 12px rgba(255, 255, 255, 0.5)
+    ,         inset 2px 2px 4px rgba(255, 255, 255, 0.1)
+    ,         inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+button:hover{
+    box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1)
+     ,        inset -2px -2px 12px rgba(255, 255, 255, 0.5)
+    ,         inset 2px 2px 4px rgba(255, 255, 255, 0.1)
+    ,         inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+a button:hover{
+  display: inline-block;
+  transform: scale(0.98);
+}
+
 #nav{
   display: grid;
   margin: 0 auto;
