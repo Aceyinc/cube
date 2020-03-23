@@ -23,7 +23,7 @@ button{
   padding: 10px 30px;
   letter-spacing: 2px;
   font-weight: 400;
-  background: ;
+  /* background: ; */
   color: #ac1212;
   box-shadow: -2px -2px 8px rgba(255, 255, 255, 1)
      ,        -2px -2px 12px rgba(255, 255, 255, 0.5)
