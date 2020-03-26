@@ -29,7 +29,7 @@
   opacity: 1;
 }
 .fade::after{
-  content: 'netflix chill <button>hhh</button>';
+  content: 'netflix chill';
   display: flex;
   color: aliceblue;
   justify-content: center;
