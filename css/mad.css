@@ -1,52 +1,27 @@
-/* flip css styling */
-
-.container{
-  width: 100%;
-  height: 100vh;
+/* .title{
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
-
-}
-.card-container{
-  width: 200px;
-  height: 300px;
-  
-}
-.card{
+} */
+.image-container{
+  position: relative;
   width: 100%;
   height: 100%;
-  
-  transition: transform 1s ease-in-out;
-  transform-style: preserve-3d;
+  border: 10px solid black;
 }
-.card-container:hover .card{
-  transform: rotateY(180deg);
-}
-.card figure{
+.image-container img{
   width: 100%;
   height: 100%;
-  margin: 0;
-  padding: 0;
-  border-radius: 5px;
-  display: flex; 
-  flex-direction: column;
-  text-align: center;
+}
+.transition-image{
   position: absolute;
-  justify-content: center;
-  align-items: center;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
-.card .front{
-  background: red;
-
-}
-.card .back{
-  background: indianred;
-  transform: rotateY(180deg);
-}
-.back button{
-  
-  border: none;
-  padding: 10px 20px;
+.transition-image:hover{
+  opacity: 1;
 
 }
